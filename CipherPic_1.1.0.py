@@ -116,7 +116,6 @@ def encode_image():
         password = simpledialog.askstring("Password", "Enter password:", show='*')
         if password!='' and str(password)!='None':
             validatepw=True
-    print (password,validatepw)
     password_length= len(password)
     key=''
     for n in range (0,password_length):
